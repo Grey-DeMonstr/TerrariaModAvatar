@@ -1,0 +1,3 @@
+displayName = Avatar: The Last Airbender
+author = GreyDeMonstr
+version = 0.1
