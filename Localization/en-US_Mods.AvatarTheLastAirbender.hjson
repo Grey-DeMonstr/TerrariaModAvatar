@@ -5,9 +5,11 @@ Items: {
 		DisplayName: Avatar Sword
 		Tooltip:
 			'''
-			Template of an item
-			Replacing this tooltip is duty 
-			It's snowing on Mt.Fuji
 			'''
+	}
+
+	AirSlice: {
+		DisplayName: Air Slice
+		Tooltip: ""
 	}
 }
