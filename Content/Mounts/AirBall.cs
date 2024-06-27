@@ -41,7 +41,11 @@ namespace AvatarTheLastAirbender.Content.Mounts
 			MountData.totalFrames = 4; // Amount of animation frames for the mount
 
 			// Fills an array with values for less repeating code
-			MountData.playerYOffsets = Enumerable.Repeat(20, MountData.totalFrames).ToArray();
+			var playerYOffsets = Enumerable.Repeat(20, MountData.totalFrames).ToArray();
+			playerYOffsets[1] += 2;
+			playerYOffsets[3] -= 2;
+			MountData.playerYOffsets = playerYOffsets;
+
 			MountData.xOffset = 13;
 			MountData.yOffset = -12;
 			MountData.playerHeadOffset = 22;
