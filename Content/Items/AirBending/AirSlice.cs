@@ -61,7 +61,6 @@ namespace AvatarTheLastAirbender.Content.Items.AirBending
 		{
 			Recipe recipe = CreateRecipe();
 			recipe.AddIngredient(ItemID.DirtBlock, 1);
-			recipe.AddTile(TileID.WorkBenches);
 			recipe.Register();
 		}
 	}
