@@ -3,13 +3,23 @@
 Items: {
 	AvatarSword: {
 		DisplayName: Avatar Sword
-		Tooltip:
-			'''
-			'''
+		Tooltip: ""
 	}
 
 	AirSlice: {
 		DisplayName: Air Slice
 		Tooltip: ""
+	}
+
+	AirBallMountItem: {
+		DisplayName: Air Ball Mount Item
+		Tooltip: ""
+	}
+}
+
+Buffs: {
+	AirBallMountBuff: {
+		Description: Mods.AvatarTheLastAirbender.Buffs.AirBallMountBuff.Description
+		DisplayName: Air Ball Mount Buff
 	}
 }
