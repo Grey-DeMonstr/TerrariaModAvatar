@@ -23,11 +23,11 @@ namespace AvatarTheLastAirbender.Content.Mounts
 			MountData.jumpSpeed = 4f; // The rate at which the player and mount ascend towards (negative y velocity) the jump height when the jump button is pressed.
 			MountData.blockExtraJumps = false; // Determines whether or not you can use a double jump (like cloud in a bottle) while in the mount.
 			MountData.constantJump = true; // Allows you to hold the jump button down.
-			MountData.heightBoost = 20; // Height between the mount and the ground
+			MountData.heightBoost = 0; // Height between the mount and the ground
 			MountData.fallDamage = 0.5f; // Fall damage multiplier.
 			MountData.runSpeed = 11f; // The speed of the mount
 			MountData.dashSpeed = 8f; // The speed the mount moves when in the state of dashing.
-            MountData.flightTimeMax = 0; // The amount of time in frames a mount can be in the state of flying.
+            MountData.flightTimeMax = 180; // The amount of time in frames a mount can be in the state of flying.
 
             // Misc
 			MountData.fatigueMax = 0;
@@ -46,8 +46,8 @@ namespace AvatarTheLastAirbender.Content.Mounts
 			playerYOffsets[3] -= 2;
 			MountData.playerYOffsets = playerYOffsets;
 
-			MountData.xOffset = 13;
-			MountData.yOffset = -12;
+			MountData.xOffset = 16;
+			MountData.yOffset = 0;
 			MountData.playerHeadOffset = 22;
 			MountData.bodyFrame = 3;
 			// Standing
