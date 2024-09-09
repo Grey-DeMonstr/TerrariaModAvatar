@@ -30,7 +30,9 @@ namespace AvatarTheLastAirbender.Content.Items.AirBending
 		public override void AddRecipes()
 		{
 			Recipe recipe = CreateRecipe();
-			recipe.AddIngredient(ItemID.DirtBlock, 1);
+			recipe.AddIngredient(ItemID.SoulofFlight, 10);
+			recipe.AddIngredient(ItemID.SoulofLight, 5);
+			recipe.AddIngredient(ItemID.SoulofNight, 5);
 			recipe.Register();
 		}
     }
