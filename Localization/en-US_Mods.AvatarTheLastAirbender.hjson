@@ -15,6 +15,12 @@ Items: {
 		DisplayName: Air Ball Mount Item
 		Tooltip: ""
 	}
+
+	AirBenderTattoo: {
+		SetBonus: Mods.AvatarTheLastAirbender.Items.AirBenderTattoo.SetBonus
+		DisplayName: Air Bender Tattoo
+		Tooltip: ""
+	}
 }
 
 Buffs: {
